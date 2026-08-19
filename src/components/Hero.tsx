@@ -111,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                   <a
                     href={PERSONAL_INFO.linkedin}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="w-8 h-8 rounded-lg bg-white border border-slate-200 hover:border-blue-300 hover:text-blue-600 flex items-center justify-center text-slate-600 transition-colors"
                     title="LinkedIn"
                   >
@@ -120,7 +120,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                   <a
                     href={PERSONAL_INFO.github}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="w-8 h-8 rounded-lg bg-white border border-slate-200 hover:border-slate-400 hover:text-slate-900 flex items-center justify-center text-slate-600 transition-colors"
                     title="GitHub"
                   >

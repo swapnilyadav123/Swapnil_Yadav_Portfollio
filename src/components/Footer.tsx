@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
               <a
                 href={PERSONAL_INFO.linkedin}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-blue-600 hover:text-white flex items-center justify-center text-slate-300 transition-colors"
                 title="LinkedIn"
                 id="footer-link-linkedin"
@@ -68,7 +68,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
               <a
                 href={PERSONAL_INFO.github}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 hover:text-white flex items-center justify-center text-slate-300 transition-colors"
                 title="GitHub"
                 id="footer-link-github"

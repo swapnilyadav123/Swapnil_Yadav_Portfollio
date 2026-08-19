@@ -180,7 +180,7 @@ export const Contact: React.FC = () => {
                       <a 
                         href={PERSONAL_INFO.linkedin} 
                         target="_blank" 
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className="text-slate-200 font-bold hover:text-blue-400 transition-colors text-xs"
                       >
                         {PERSONAL_INFO.linkedinHandle}
@@ -190,7 +190,7 @@ export const Contact: React.FC = () => {
                   <a
                     href={PERSONAL_INFO.linkedin}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="p-1.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-300 transition-colors cursor-pointer"
                     title="Open LinkedIn"
                   >
@@ -209,7 +209,7 @@ export const Contact: React.FC = () => {
                       <a 
                         href={PERSONAL_INFO.github} 
                         target="_blank" 
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className="text-slate-200 font-bold hover:text-purple-400 transition-colors text-xs"
                       >
                         {PERSONAL_INFO.githubHandle}
@@ -219,7 +219,7 @@ export const Contact: React.FC = () => {
                   <a
                     href={PERSONAL_INFO.github}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="p-1.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-300 transition-colors cursor-pointer"
                     title="Open GitHub"
                   >

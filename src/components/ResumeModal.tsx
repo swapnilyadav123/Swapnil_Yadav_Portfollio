@@ -152,7 +152,14 @@ CERTIFICATIONS
                 <span>•</span>
                 <span>{PERSONAL_INFO.location}</span>
                 <span>•</span>
-                <span className="font-mono">{PERSONAL_INFO.linkedinHandle}</span>
+                <a 
+                  href={PERSONAL_INFO.linkedin} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="font-mono hover:text-blue-700 hover:underline transition-colors"
+                >
+                  {PERSONAL_INFO.linkedinHandle}
+                </a>
               </div>
             </div>
 
